@@ -34,7 +34,7 @@ export function shouldLoadPlugin(pluginId: string): boolean {
 
     case 'april_fools_languages':
       // Enable April Fools Language joke only on even years
-      if (new Date().getFullYear() % 2 === 1) {
+      if (new Date().getFullYear() % 2 === 0) {
         break;
       }
       // Console message if we are *just* past the April Fools end-date.
@@ -53,7 +53,7 @@ export function shouldLoadPlugin(pluginId: string): boolean {
       return shouldShowAprilFoolsPlugin();
 
     case 'april_fools_star_wars':
-      // Enable April Fools Star Wars joke only on even years
+      // Enable April Fools Star Wars joke only on odd years
       if (new Date().getFullYear() % 2 === 1) {
         break;
       }

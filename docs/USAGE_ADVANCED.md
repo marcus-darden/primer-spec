@@ -26,19 +26,19 @@ See the [Primer Spec README](../README.md) for the main usage instructions. This
 - [Callouts](#callouts)
 - [Enhanced code blocks](#enhanced-code-blocks)
 - [Page configuration options](#page-configuration-options)
-    - [`disableSidebar`: Boolean](#disablesidebar-boolean)
-    - [`hideSidebarOnLoad`: Boolean](#hidesidebaronload-boolean)
-    - [`sitemapOrder`: Number](#sitemaporder-number)
-    - [`latex`: Boolean](#latex-boolean)
-    - [`mermaid`: Boolean](#mermaid-boolean)
-    - [`defaultCodeblockVariant`: CodeblockVariant (String)](#defaultcodeblockvariant-codeblockvariant-string)
-    - [`excludeFromSitemap`: Boolean](#excludefromsitemap-boolean)
+  - [`disableSidebar`: Boolean](#disablesidebar-boolean)
+  - [`hideSidebarOnLoad`: Boolean](#hidesidebaronload-boolean)
+  - [`sitemapOrder`: Number](#sitemaporder-number)
+  - [`latex`: Boolean](#latex-boolean)
+  - [`mermaid`: Boolean](#mermaid-boolean)
+  - [`defaultCodeblockVariant`: CodeblockVariant (String)](#defaultcodeblockvariant-codeblockvariant-string)
+  - [`excludeFromSitemap`: Boolean](#excludefromsitemap-boolean)
 - [Site configuration options](#site-configuration-options)
-    - [`defaultSubthemeName`: String](#defaultsubthemename-string)
-    - [`defaultSubthemeMode`: String](#defaultsubthememode-string)
-    - [`defaultCodeblockVariant`: CodeblockVariant (String)](#defaultcodeblockvariant-codeblockvariant-string-1)
-    - [`sitemap`: Boolean | {label: String; externalLinks: Array}](#sitemap-boolean--label-string-externallinks-array)
-    - [`disableJokes`: Boolean](#disablejokes-boolean)
+  - [`defaultSubthemeName`: String](#defaultsubthemename-string)
+  - [`defaultSubthemeMode`: String](#defaultsubthememode-string)
+  - [`defaultCodeblockVariant`: CodeblockVariant (String)](#defaultcodeblockvariant-codeblockvariant-string-1)
+  - [`sitemap`: Boolean | {label: String; externalLinks: Array}](#sitemap-boolean--label-string-externallinks-array)
+  - [`disableJokes`: Boolean](#disablejokes-boolean)
 - [Pinning to a specific version](#pinning-to-a-specific-version)
 - [Using without Jekyll](#using-without-jekyll)
 
@@ -59,7 +59,7 @@ If you'd like to preview your site on your computer (or if you aren't using GitH
    ```ruby
    source 'https://rubygems.org'
 
-   gem 'github-pages'
+   gem 'github-pages', '228'
    gem 'webrick'
    ```
 
